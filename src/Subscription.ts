@@ -30,7 +30,7 @@ export class Subscriptions {
                fb['loading'] = true
                fb['notice'] = true
                try{
-                   fb.bind(this, args)
+                   fb.apply(this, args)
                    fb['notice'] = false
                    fb['loading'] = false
                }
