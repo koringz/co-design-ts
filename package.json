@@ -1,0 +1,36 @@
+{
+  "name": "co-design-ts",
+  "version": "1.0.0",
+  "description": "co-design-ts javascript client",
+  "main": "dist/co-design-ts.js",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "watch": "node_modules/.bin/webpack --watch"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koringz/co-design-ts.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koringz/co-design-ts/issues"
+  },
+  "homepage": "https://github.com/koringz/co-design-ts",
+  "keywords": [
+    "co-design-ts",
+    "javascript",
+    "typescript"
+  ],
+  "dependencies": {
+    "unminified-webpack-plugin": "^3.0.0"
+  }
+}

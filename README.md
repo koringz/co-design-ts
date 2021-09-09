@@ -1,2 +1,4 @@
 # co-design-ts
-Javascript design patterns
+co design patterns typescript
+
+Typescript 设计模式
